@@ -48,6 +48,6 @@ class TestSearchAndVerifyFilter:
         # results page berlin departure
         # results = frp.results_departure_hour()
 
-        frp.getFlightCardsDetailsIfPrice(2200)
+        frp.get_flight_cards_details_if_price_below(2200)
 
         # frp.results_prices()
